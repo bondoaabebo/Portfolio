@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio</title>
+  <meta name="description" content="بورتفوليو مطورة واجهات — ثنائي اللغة عربي/English" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700;900&family=Inter:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body> <!-- Navbar -->
+  <nav class="nav">
+    <div class="wrap inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div><span id="brand">Bondoaa</span>
+      </div>
+      <div class="menu" id="menu"> <a href="#about" data-i18n="nav.about">عنّي</a> <a href="#skills"
+          data-i18n="nav.skills">المهارات</a> <a href="#projects" data-i18n="nav.projects">المشاريع</a> <a
+          href="#contact" data-i18n="nav.contact">تواصل</a> <a class="btn" href="#" target="_blank" rel="noopener"
+          data-i18n="nav.cv">السيرة الذاتية</a> </div> <button class="lang" id="langToggle"
+        aria-label="Toggle Language">EN</button>
+    </div>
+  </nav>
+  <main class="wrap"> <!-- Hero -->
+    <section class="hero">
+      <div> <span class="badge" data-i18n="hero.badge">✨ مطوّرة واجهات أمامية</span>
+        <h1> <span data-i18n="hero.hi">مرحباً، أنا</span> <span style="color:var(--pink)">Bondoaa</span> <span
+            data-i18n="hero.tagline">بعمل مواقع حديثة، سريعة، وسهلة الاستخدام.</span> </h1>
+        <p class="lead" data-i18n="hero.lead"> أركز على تجربة المستخدم، الأداء، وإتاحة الوصول. هنا هتلاقوا مجموعة من
+          أعمالي. </p>
+        <div class="actions"> <a class="btn primary" href="#projects" data-i18n="hero.cta1">مشاريعي</a> <a class="btn"
+            href="#contact" data-i18n="hero.cta2">تواصل معي</a> </div>
+      </div>
+      <div>
+        <div class="mock" aria-hidden="true">
+          <div class="screen"> <img src="images/oird.jpg.webp" alt="صورة توضيحية لمشروع تجريبي"> </div>
+        </div>
+      </div>
+    </section> <!-- About -->
+    <section id="about">
+      <div class="title"><span class="dot"></span>
+        <h2 data-i18n="about.title">عنّي</h2>
+      </div>
+      <div class="card">
+        <p class="muted" data-i18n="about.text"> “I’m a Front-End Developer dedicated to building fast, responsive, and
+          user-friendly websites. I view every project as an opportunity to learn and innovate, and I continuously
+          strive to grow and stay aligned with the latest advancements in web technologies.” </p>
+      </div>
+    </section> <!-- Skills -->
+    <section id="skills" class="skills-wrap">
+      <div class="title"><span class="dot"></span>
+        <h2 data-i18n="skills.title">المهارات</h2>
+      </div>
+      <div class="grid skills">
+        <div class="card">
+          <h3>HTML5</h3>
+          <p class="muted" data-i18n="skills.s1">بنية نظيفة وسهلة القراءة</p>
+        </div>
+        <div class="card">
+          <h3>CSS3</h3>
+          <p class="muted" data-i18n="skills.s2">تصميمات مرنة ومتجاوبة</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p class="muted" data-i18n="skills.s3">تفاعلات بسيطة ولطيفة</p>
+        </div>
+        <div class="card">
+          <h3>Git & GitHub</h3>
+          <p class="muted" data-i18n="skills.s4">إدارة الإصدارات والنشر</p>
+        </div>
+        <div class="card">
+          <h3>Performance</h3>
+          <p class="muted" data-i18n="skills.s5">تحسين السرعة و الـ SEO</p>
+        </div>
+        <div class="card">
+          <h3>Accessibility</h3>
+          <p class="muted" data-i18n="skills.s6">تجربة عادلة للجميع</p>
+        </div>
+      </div>
+    </section> <!-- Projects -->
+    <section id="projects">
+      <div class="title"><span class="dot"></span>
+        <h2 data-i18n="projects.title">المشاريع</h2>
+      </div>
+      <div class="grid projects">
+        <article class="card">
+          <div class="thumb"> <img src="images/Store.png" alt=" مشروع تفاعلي"> </div>
+          <h3 data-i18n="projects.p1.title">اسم المشروع الأول</h3>
+          <p class="muted" data-i18n="projects.p1.desc">وصف قصير عن المشروع والتقنيات المستخدمة. مثال: صفحة هبوط
+            متجاوبة.</p>
+          <p><a href="https://minestore.vercel.app/" target="_blank" rel="noopener" data-i18n="projects.live">معاينة</a> • </p>
+        </article>
+        <article class="card">
+          <div class="thumb"> <img src="images/laziz.png" alt=" مشروع تفاعلي"> </div>
+          <h3 data-i18n="projects.p2.title">اسم المشروع الثاني</h3>
+          <p class="muted" data-i18n="projects.p2.desc">تطبيق صغير بـ JS لآلة حاسبة/مولّد كلمات مرور.</p>
+          <p><a href="https://bondoaabebo.github.io/restaurant/" target="_blank" rel="noopener" data-i18n="projects.live">معاينة</a> • </p>
+        </article>
+        <article class="card">
+          <div class="thumb"> <img src="images/App.png" alt="مشروع"> </div>
+          <div class="thumb" role="img" aria-label="صورة لوحة تحكم"></div>
+          <h3 data-i18n="projects.p3.title">App</h3>
+          <p class="muted" data-i18n="projects.p3.desc">"تطبيق واقع معزز يتيح لك معاينة الأثاث في مساحتك قبل الشراء."
+          </p>
+          <p><a href="https://appfurniture.vercel.app/" target="_blank" rel="noopener" data-i18n="projects.live">معاينة</a> • </p>
+        </article>
+      </div>
+    </section> <!-- Contact -->
+    <section id="contact" class="contact-wrap">
+      <div class="contact">
+        <div>
+          <div class="title"><span class="dot"></span>
+            <h2 data-i18n="contact.title">تواصل معي</h2>
+          </div>
+          <p class="muted" data-i18n="contact.lead">لو محتاج موقع لشغلك أو عايز نتعاون في مشروع، ابعت رسالة.</p>
+          <form class="card" id="contactForm">
+            <div class="field"> <label for="name" data-i18n="contact.name">الاسم</label> <input id="name" name="name"
+                required placeholder="اكتب اسمك / Your name" /> </div>
+            <div class="field"> <label for="email" data-i18n="contact.email">الإيميل</label> <input id="email"
+                name="email" type="email" required placeholder="your@email.com" /> </div>
+            <div class="field"> <label for="msg" data-i18n="contact.msg">الرسالة</label> <textarea id="msg"
+                name="message" rows="5" required placeholder="رسالتك / Your message"></textarea> </div> <button
+              class="btn primary" type="submit" data-i18n="contact.send">إرسال</button>
+          </form>
+        </div>
+        <aside class="card">
+          <h3 data-i18n="contact.quick">معلومات سريعة</h3>
+          <ul class="muted" style="padding-right:18px;margin:10px 0 0">
+            <li>📍 <span data-i18n="contact.city">مصر</span></li>
+            <li>✉️ <a href="mailto:Bondoaa.beboo@gmail.com">Bondoaa.beboo@gmail.com</a></li>
+            <li>📱 <a id="whatsappLink" href="https://wa.me/201055525775" target="_blank" rel="noopener"
+                data-i18n="contact.whatsapp">واتساب</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"> <span id="foot" data-i18n="footer.text">© <span id="year"></span> Bondoaa كل الحقوق
+      محفوظة</span> </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
